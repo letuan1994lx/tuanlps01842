@@ -1,6 +1,7 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Data.DataTable
 Public Class khachhang
+'Tạo biến cho kết nối với database của Sever' Đoạn code này đã thêm vô bỡi account Letuan1994
     Dim tb As New DataTable
     Dim connectstr As String = "workstation id=tuanlps01842.mssql.somee.com;packet size=4096;user id=tuanlps01842;pwd=Letuan123;data source=tuanlps01842.mssql.somee.com;persist security info=False;initial catalog=tuanlps01842"
     Private Sub khachhang_load()
